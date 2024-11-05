@@ -3,15 +3,28 @@ html {
   width: 100%;
 }
 
+.header {
+  text-align:center;
+}
+
 svg {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
+
 .bd-placeholder-img {
   height:200px;
   width:auto!important;
   margin:0 auto;
+}
+
+.in-process {
+  background:yellow;
+}
+
+.done {
+  background:lightgreen;
 }
 
 #albania {background-image:url(images/albania.png);}
