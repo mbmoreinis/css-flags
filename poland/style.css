@@ -16,16 +16,14 @@ a {
 
 .stripe {
     width:100%;
-    height:33.33%;
+    height:50%;
 }
 
-.red {
-    background:red;
-}
+
 
 .white {
-    background:white;
+    background:#FFFFFF;
 }
-.blue {
-    background:blue;
+.red {
+    background:#D4213D;
 }

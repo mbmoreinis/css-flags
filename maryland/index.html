@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maryland By Auron</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <svg class="SvgDefs" aria-hidden="true"> 
+            <defs>
+                <symbol id="CrosslandBase" viewBox="0 0 375 250">
+                    <rect width="375" height="250" fill="#fff"></rect>
+                    <path id="CrosslandUpperLeft" d="M187.5,125v-107.5a15.8,15.8 0 0 0 -15.8,15.8v8.3h-15.8a15.8,15.8 0 0 0 0,31.6h15.8v35.8h-99.9v-15.8a15.8,15.8 0 0 0 -31.6,0v15.8h-14.2a15.8,15.8 0 0 0 -15.8,15.8z" fill="#9e1b34"></path>
+                    <path id="CrosslandLowerLeft" d="M0,125h10.2a15.8,15.8 0 0 0 15.8,15.8h14.2v15.8a15.8,15.8 0 0 0 31.6,0v-15.8h99.9v35.8h-15.8a15.8,15.8 0 0 0 0,31.6h15.8v8.3a15.8,15.8 0 0 0 15.8,15.8v17.8h-187.5z" fill="#9e1b34"></path>
+                    <g transform="rotate(180 187.5 125)">
+                        <use href="#CrosslandUpperLeft"></use>
+                        <use href="#CrosslandLowerLeft"></use>
+                    </g>
+                </symbol>
+                <!-- Example for me smol brian.
+
+                <path id="CrossUpperLeft" d="
+                    M 50 50                         Set to a coordinate
+                    v 10                            Move upward
+                    a 10 10 0 0 0 -10 10            Draw an arc
+                    h 10                            Move sideways
+                    z                               Go back to start
+                " fill="#9e1b34"></path>
+
+                Idk if an svg path I made counts but uhhhh yeah, I can do it without this is just easier.
+                -->
+                <path id="CrossUpperLeft" d="
+                    M 187.5 125
+                    h 3
+                    v -107.5
+                    h -3
+                    a 15.8 15.8 0 0 0 -15.8 15.8
+                    v 8.3
+                    h -15.8
+                    a 15.8 15.8 0 0 0 0 31.6
+                    h 15.8
+                    v 35.8
+                    h -99.9
+                    v -15.8
+                    a 15.8 15.8 0 0 0 -31.6 0
+                    v 15.8
+                    h -14.2
+                    a 15.8 15.8 0 0 0 -15.8 18.8
+                    h -13.2
+                    L 187.5 128
+                    z
+                "></path>
+                <clipPath id="CrossShape" clipPathUnits="objectBoundingBox">
+                    <g transform="scale(0.0026666667 0.004)">
+                        <g transform="scale(1.5 1)">
+                            <use href="#CrossUpperLeft" transform="scale(calc(2/3) 1)"></use>
+                            <g transform="translate(250 0) scale(-1 1)">
+                                <use href="#CrossUpperLeft" transform="scale(calc(2/3) 1)"></use>
+                            </g>
+                            <g transform="translate(0 250) scale(1 -1)">
+                                <use href="#CrossUpperLeft" transform="scale(calc(2/3) 1)"></use>
+                            </g>
+                            <g transform="translate(250 250) scale(-1 -1)">
+                                <use href="#CrossUpperLeft" transform="scale(calc(2/3) 1)"></use>
+                            </g>
+                        </g>
+                    </g>
+                </clipPath>
+            </defs>
+        </svg>
+
+
+
+
+        <div class="header">
+		  <h1>Maryland</h1>
+      <h3>by Auron</h3>
+      <h5>Because we all know maryland is a country and not a state.</h5>
+		</div>
+
+
+
+
+        <div class="flag">
+            <div>
+                <span class="Yellowbox">
+                    <div class="YellowColumn"></div>
+                    <div class="BlackColumn"></div>
+                    <div class="YellowColumn"></div>
+                    <div class="BlackColumn"></div>
+                    <div class="YellowColumn"></div>
+                    <div class="BlackColumn"></div>
+                    <span class="Invert"></span>
+                </span>
+                <span class="Whitebox">
+                    <svg class="Cross" viewBox="0 0 375 250" aria-hidden="true">
+                        <use href="#CrosslandBase" width="375" height="250"></use>
+                    </svg>
+                </span></div>
+            <div>
+                <span class="Whitebox">
+                    <svg class="Cross" viewBox="0 0 375 250" aria-hidden="true">
+                        <use href="#CrosslandBase" width="375" height="250"></use>
+                    </svg>
+                </span>
+                <span class="Yellowbox">
+                    <div class="YellowColumn"></div>
+                    <div class="BlackColumn"></div>
+                    <div class="YellowColumn"></div>
+                    <div class="BlackColumn"></div>
+                    <div class="YellowColumn"></div>
+                    <div class="BlackColumn"></div>
+                    <span class="Invert"></span>
+                </span>
+            </div>
+        </div>
+
+        <a href="../index.html">Back Home</a>
+    </body>
+</html>

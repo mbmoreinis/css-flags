@@ -1,0 +1,19 @@
+#botswana {
+    width: 500px;
+    aspect-ratio: 3/2;
+    background: #6DA9D2;
+}
+.azurestripe {
+    width: 100%;
+    aspect-ratio: 4/1;
+}
+.whitestripe {
+    width: 100%;
+    aspect-ratio: 36/1;
+    background: white;
+}
+.blackstripe {
+    width: 100%;
+    aspect-ratio: 9/1;
+    background: black;
+}
